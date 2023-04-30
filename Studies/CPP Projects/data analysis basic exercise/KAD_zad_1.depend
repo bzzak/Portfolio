@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1636392072 source:c:\users\admin\desktop\nauka\informatyka 2020\iii semestr\komputerowa analiza danych\kad_zad_1\main.cpp
+	<iostream>
+	<algorithm>
+	<fstream>
+	<vector>
+	<string>
+	<iomanip>
+
+1635968464 c:\users\admin\desktop\nauka\informatyka 2020\iii semestr\komputerowa analiza danych\kad_zad_1\csv.h
+	<vector>
+	<string>
+	<cstring>
+	<algorithm>
+	<utility>
+	<cstdio>
+	<exception>
+	<mutex>
+	<thread>
+	<condition_variable>
+	<memory>
+	<cassert>
+	<cerrno>
+	<istream>
+	<limits>
+

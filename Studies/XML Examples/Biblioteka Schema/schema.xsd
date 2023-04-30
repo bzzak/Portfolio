@@ -1,0 +1,304 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+	<!-- definition of simple types -->
+	
+	<xs:simpleType name="napisMax40">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:maxLength value="40"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="napis">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	
+	<xs:simpleType name="typLokal">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="([0-9])*"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	
+	<xs:simpleType name="liczbaDodatnia">
+		<xs:restriction base="xs:positiveInteger"/>
+	</xs:simpleType>
+	
+	<xs:simpleType name="liczbaRok">
+		<xs:restriction base="xs:positiveInteger">
+			<xs:minInclusive value="1900"/>
+			<xs:totalDigits value="4"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="typOkladka">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="twarda|miękka"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="numerPesel">
+		<xs:restriction base="xs:positiveInteger">
+			<xs:totalDigits value="11"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="kodPocztowy">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9]{2}-[0-9]{3}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="data">
+		<xs:restriction base="xs:date"/>
+	</xs:simpleType>
+	
+	<xs:simpleType name="typOpoznienie">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[1-9]([0-9])*|brak"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="okresWypozyczenia">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="([1-9]d)|([1-2][0-9]d)|(30d)|([1-9]m)|(1[0-1]m)|([1-4]t)|(1r)|brak"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="typLogiczny">
+		<xs:restriction base="xs:boolean"/>
+	</xs:simpleType>
+	
+	<xs:simpleType name="adresEmail">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="([a-zA-Z0-9])+@([a-z])+.([a-z])+"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="numerIndeksu">
+		<xs:restriction base="xs:positiveInteger">
+			<xs:totalDigits value="6"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="numerGrupy">
+		<xs:restriction base="xs:positiveInteger">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="9"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="rozpoczecieZajec">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="(Poniedziałek (([0-9]:(00|15|30|45))|(1[0-9]:(00|15|30|45))|(2[0-3]:(00|15|30|45))))|(Wtorek (([0-9]:(00|15|30|45))|(1[0-9]:(00|15|30|45))|(2[0-3]:(00|15|30|45))))|(Środa (([0-9]:(00|15|30|45))|(1[0-9]:(00|15|30|45))|(2[0-3]:(00|15|30|45))))|(Czwartek (([0-9]:(00|15|30|45))|(1[0-9]:(00|15|30|45))|(2[0-3]:(00|15|30|45))))|(Piątek (([0-9]:(00|15|30|45))|(1[0-9]:(00|15|30|45))|(2[0-3]:(00|15|30|45))))"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="idDzial">
+		<xs:restriction base="xs:ID">
+			<xs:pattern value="_([0-9]){3}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="idWydawnictwo">
+		<xs:restriction base="xs:ID">
+			<xs:pattern value="_([0-9])+"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="idWydawnictwoRef">
+		<xs:restriction base="xs:IDREF">
+			<xs:pattern value="_([0-9])+"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="idISBNRef">
+		<xs:restriction base="xs:IDREF">
+			<xs:pattern value="(_978-83-([0-9]){6}-[0-9]-[0-9])|(_978-83-([0-9]){5}-([0-9]){2}-[0-9])|(_978-83-([0-9]){4}-([0-9]){3}-[0-9])|(_978-83-([0-9]){3}-([0-9]){4}-[0-9])|(_978-83-([0-9]){2}-([0-9]){5}-[0-9])"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="numerISBN">
+		<xs:restriction base="xs:ID">
+			<xs:pattern value="(_978-83-([0-9]){6}-[0-9]-[0-9])|(_978-83-([0-9]){5}-([0-9]){2}-[0-9])|(_978-83-([0-9]){4}-([0-9]){3}-[0-9])|(_978-83-([0-9]){3}-([0-9]){4}-[0-9])|(_978-83-([0-9]){2}-([0-9]){5}-[0-9])"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="liczbaCena">
+		<xs:restriction base="xs:decimal">
+			<xs:minExclusive value="0"/>
+			<xs:fractionDigits value="2"/>
+		</xs:restriction>	
+	</xs:simpleType>
+	
+	<!-- definitions of element and attribiutes groups -->
+	<xs:group name="elementyKsiazki">
+		<xs:sequence>
+			<xs:element name="tytul" type="napisMax40"/>
+			<xs:element name="autor" type="napisMax40"/>
+			<xs:element name="przeklad" type="napisMax40"/>
+			<xs:element name="wydawca" type="typWydawca"/>
+			<xs:element name="rok_wydania" type="liczbaRok"/>
+			<xs:element name="okladka" type="typOkladka"/>
+			<xs:element name="cena" type="typCena" minOccurs="0"/>
+		</xs:sequence>
+	</xs:group>
+	
+	<xs:group name="elementyKlienta">
+		<xs:sequence>
+			<xs:element name="imie" type="napisMax40"/>
+			<xs:element name="nazwisko" type="napisMax40"/>
+			<xs:element name="pesel" type="numerPesel"/>
+			<xs:element name="adres" type="typAdres"/>
+			<xs:element name="wypozyczenia" type="typWypozyczenia"/>
+		</xs:sequence>
+	</xs:group>
+	
+	<xs:group name="elementyAdresu">
+		<xs:all>
+			<xs:element name="miasto" type="napisMax40"/>
+			<xs:element name="kod_pocztowy" type="kodPocztowy"/>
+			<xs:element name="ulica" type="typUlica"/>
+		</xs:all>
+	</xs:group>
+	
+	<xs:group name="elementyWydawnictwa">
+		<xs:sequence>
+			<xs:element name="nazwa" type="napisMax40"/>
+			<xs:element name="adres" type="typAdres"/>
+			<xs:element name="email" type="adresEmail"/>
+		</xs:sequence>
+	</xs:group>
+	
+	<xs:group name="elementyPozycji">
+		<xs:all>
+			<xs:element name="data_wypozyczenia" type="data"/>
+			<xs:element name="data_zwrotu" type="data" minOccurs="0"/>
+			<xs:element name="opoznienie" type="typOpoznienie"/>
+		</xs:all>
+	</xs:group>
+	
+	<xs:group name="elementyAutoraDokumentu">
+		<xs:sequence>
+			<xs:element name="imie" type="napisMax40"/>
+			<xs:element name="nazwisko" type="napisMax40"/>
+			<xs:element name="indeks" type="numerIndeksu"/>
+			<xs:element name="grupa" type="numerGrupy"/>
+			<xs:element name="zajecia" type="rozpoczecieZajec"/>
+		</xs:sequence>
+	</xs:group>
+	
+	<xs:group name="elementyBiblioteki">
+		<xs:sequence>
+			<xs:element name="dzial" type="typDzial" minOccurs="1" maxOccurs="unbounded"/>
+			<xs:element name="klienci" type="typKlienci"/>
+			<xs:element name="wydawnictwa" type="typWydawnictwa"/>
+			<xs:element name="autor_dokumentu" type="typAutorDokumentu"/>
+		</xs:sequence>
+	</xs:group>
+	
+	<xs:attributeGroup name="atrybutyDzialu">
+		<xs:attribute name="id" type="idDzial" use="required"/>
+		<xs:attribute name="nazwa" type="napisMax40" use="required"/>
+		<xs:attribute name="pozycje" type="liczbaDodatnia" />
+	</xs:attributeGroup>
+	
+	<xs:attributeGroup name="atrybutyKsiazki">
+		<xs:attribute name="isbn" type="numerISBN" use="required"/>
+		<xs:attribute name="wypozyczona" type="typLogiczny" default="false"/>
+		<xs:attribute name="na_sprzedaz" type="typLogiczny" default="false"/>
+	</xs:attributeGroup>
+	
+	<xs:attributeGroup name="atrybutyUlicy">
+		<xs:attribute name="numer" type="liczbaDodatnia"  use="required"/>
+		<xs:attribute name="lokal" type="typLokal"  default=""/>
+	</xs:attributeGroup>
+	
+	<xs:attributeGroup name="atrybutyPozycji">
+		<xs:attribute name="id" type="idISBNRef"  use="required"/>
+		<xs:attribute name="zwrot_terminowy" type="typLogiczny"/>
+		<xs:attribute name="okres_wypozyczenia" type="okresWypozyczenia"  use="required"/>
+	</xs:attributeGroup>
+	
+	
+	<!-- definition of complex types -->
+	
+	<xs:complexType name="typDzial">
+		<xs:sequence>
+			<xs:element name="ksiazka" type="typKsiazka" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="atrybutyDzialu"/>
+	</xs:complexType>
+	
+	<xs:complexType name="typKsiazka">
+		<xs:group ref="elementyKsiazki"/>
+		<xs:attributeGroup ref="atrybutyKsiazki"/>
+	</xs:complexType>
+	
+	<xs:complexType name="typWydawca">
+		<xs:attribute name="id" type="idWydawnictwoRef" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="typCena">
+		<xs:simpleContent>
+			<xs:extension base="liczbaCena">
+				<xs:attribute name="waluta" type="napis" fixed="pln" use="required"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:complexType name="typKlienci">
+		<xs:sequence>
+			<xs:element name="klient" type="typKlient" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="typKlient">
+		<xs:group ref="elementyKlienta"/>
+	</xs:complexType>
+	
+	<xs:complexType name="typAdres">
+		<xs:group ref="elementyAdresu"/>
+	</xs:complexType>
+	
+	<xs:complexType name="typUlica">
+		<xs:simpleContent>
+			<xs:extension base="napisMax40">
+					<xs:attributeGroup ref="atrybutyUlicy"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:complexType name="typWypozyczenia">
+		<xs:sequence>
+			<xs:element name="pozycja" type="typPozycja" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="typPozycja">
+		<xs:group ref="elementyPozycji"/>
+		<xs:attributeGroup ref="atrybutyPozycji"/>
+	</xs:complexType>
+	
+	<xs:complexType name="typWydawnictwa">
+		<xs:sequence>
+			<xs:element name="wydawnictwo" type="typWydawnictwo" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="typWydawnictwo">
+		<xs:group ref="elementyWydawnictwa"/>
+		<xs:attribute name="id" type="idWydawnictwo" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="typAutorDokumentu">
+		<xs:group ref="elementyAutoraDokumentu"/>
+	</xs:complexType>
+	
+	<xs:complexType name="typBiblioteka">
+		<xs:group ref="elementyBiblioteki"/>
+	</xs:complexType>
+	
+	<xs:element name="biblioteka" type="typBiblioteka"/>
+</xs:schema>

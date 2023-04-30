@@ -1,0 +1,208 @@
+Zadanie 1
+A. Nazwisko biezacego elementu                                   : Różyc
+B. Element biezacy student wraz z podelementami                  : 
+Teofil
+Różyc
+ 765432
+ 24 
+ 80
+
+C. Element o nazwie grupaPracownikow                             : 
+
+ Michał
+ Wołodyjowski
+ 87987
+ 60 
+
+
+ Bogusław
+ Radziwił
+ 65665
+ 40 
+
+
+ Barbara
+ Wołodyjowska
+ 56734
+ 45 
+
+
+D. Punkty studenta o imieniu Stefania                            :  100
+E. NrAlbumu i wiek biezacego elementu student                    :  765432 24 
+F. Wiek studenta o imieniu Aleksandra                            :  22 
+G. Numery wszystkich pracownikow                                 :  87987 65665 56734
+H. Plec studentow Aleksandra i Teofil oraz wszystkich pracownikow: mkmmk
+
+Zadanie 2
+A. Elementy student o wieku powyżej 21 lat                             : 
+Stefania
+Rudecka
+127687
+ 23 
+ 100
+
+Teofil
+Różyc
+ 765432
+ 24 
+ 80
+
+Aleksandra
+445566
+Billowiczówna
+ 22 
+ 75
+
+B. Wszystkie elementy student, ktore maja atrybut "plec" o wartosci "k": 
+Stefania
+Rudecka
+127687
+ 23 
+ 100
+
+Aleksandra
+445566
+Billowiczówna
+ 22 
+ 75
+
+C. Wszyscy pracownicy, ktorzy sa mezczyznami                           : 
+ Michał
+ Wołodyjowski
+ 87987
+ 60 
+
+ Bogusław
+ Radziwił
+ 65665
+ 40 
+
+D. Wszyscy pracownicy, ktorych numer jest wiekszy od 40000             : 
+ Michał
+ Wołodyjowski
+ 87987
+ 60 
+
+ Bogusław
+ Radziwił
+ 65665
+ 40 
+
+ Barbara
+ Wołodyjowska
+ 56734
+ 45 
+
+
+Zadanie 3
+A. Drugie wystapienie elementu student                                 : 
+Stefania
+Rudecka
+127687
+ 23 
+ 100
+
+B. Trzecie i kolejne wystapienie elementu student                      : 
+Teofil
+Różyc
+ 765432
+ 24 
+ 80
+
+Aleksandra
+445566
+Billowiczówna
+ 22 
+ 75
+
+C. Wszystkich poza drugim wystapieniem elementu student                : 
+Jan
+Bohatyrowicz
+123459
+ 21 
+ 40 
+
+Teofil
+Różyc
+ 765432
+ 24 
+ 80
+
+Aleksandra
+445566
+Billowiczówna
+ 22 
+ 75
+
+Kmicic
+Andrzej
+ 20 
+ 10
+
+D. Wszystkie elementy, ktore sa drugim dzieckiem swojego ojca          : Bohatyrowicz
+Stefania
+Rudecka
+127687
+ 23 
+ 100
+RudeckaRóżyc445566Andrzej
+
+ Michał
+ Wołodyjowski
+ 87987
+ 60 
+
+
+ Bogusław
+ Radziwił
+ 65665
+ 40 
+
+
+ Barbara
+ Wołodyjowska
+ 56734
+ 45 
+
+ Wołodyjowski
+ Bogusław
+ Radziwił
+ 65665
+ 40 
+ Radziwił Wołodyjowska
+E. Przedostatniego studenta oraz pracownika                            : 
+Aleksandra
+445566
+Billowiczówna
+ 22 
+ 75
+
+ Bogusław
+ Radziwił
+ 65665
+ 40 
+
+F. Od drugiego wlacznie pracownika                                     : 
+ Bogusław
+ Radziwił
+ 65665
+ 40 
+
+ Barbara
+ Wołodyjowska
+ 56734
+ 45 
+
+
+Zadanie 4
+A. Wszystkie wartosci wiek korzystajac z funkcji text()                :  21  23  24  22  20  60  40  45 
+B. Sume wartosci wiek wszystkich pracownikow                           : 145
+C. Srednia wieku mezczyzn                                              : 
+D. Lancuch znakow imie oraz nazwisko rozdzielone spacja                : Jan Bohatyrowicz Stefania Rudecka Teofil Różyc Aleksandra Billowiczówna Andrzej Kmicic  Michał  Wołodyjowski  Bogusław  Radziwił  Barbara  Wołodyjowska 
+E. Najmlodszego studenta i pracownika                                  : 
+F. Liczbe kobiet i mezczyzn(zarowno studentow, jak i pracownikow)      : 3 5
+G. Liczbe kobiet i mezczyzn dla poszczegolnych grup osobno             : (2,3) (1,2)
+H. Najmniejsza i najwieksza liczbe zdobytych punktow przez studentow   : 
+I. Srednia liczbe punktow zdobytych przez studentow                    : 
+J. Liczbe studentow, ktorzy zdali czyli zyskali powyzej 50 punktow     : 3
+

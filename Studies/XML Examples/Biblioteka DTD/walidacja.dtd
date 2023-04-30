@@ -1,0 +1,117 @@
+<!-- Definicje Elementów -->
+
+<!-- Biblioteka -->
+
+<!ELEMENT biblioteka (dzial+,klienci,wydawnictwa,autor_dokumentu)>
+
+<!-- Dział -->
+
+<!ELEMENT dzial (ksiazka+)>
+<!ELEMENT ksiazka (tytul,autor,przeklad,wydawca,rok_wydania,okladka,cena)>
+<!ELEMENT tytul (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT przeklad (#PCDATA)>
+<!ELEMENT wydawca EMPTY>
+<!ELEMENT rok_wydania (#PCDATA)>
+<!ELEMENT okladka (#PCDATA)>
+<!ELEMENT cena (#PCDATA | EMPTY)*>
+
+<!-- Dział Koniec -->
+
+<!-- Klienci -->
+
+<!ELEMENT klienci (klient+)>
+<!ELEMENT klient (imie,nazwisko,pesel,adres,wypozyczenia)>
+<!ELEMENT imie (#PCDATA)>
+<!ELEMENT nazwisko (#PCDATA)>
+<!ELEMENT pesel (#PCDATA)>
+<!ELEMENT adres (miasto,kod_pocztowy,ulica)>
+<!ELEMENT miasto (#PCDATA)>
+<!ELEMENT kod_pocztowy (#PCDATA)>
+<!ELEMENT ulica (#PCDATA)>
+<!ELEMENT wypozyczenia (pozycja*)>
+<!ELEMENT pozycja (data_wypozyczenia,data_zwrotu,opoznienie)>
+<!ELEMENT data_wypozyczenia (#PCDATA)>
+<!ELEMENT data_zwrotu (#PCDATA)>
+<!ELEMENT opoznienie (#PCDATA)>
+
+<!-- Klienci Koniec -->
+
+
+<!-- Wydawnictwa -->
+
+<!ELEMENT wydawnictwa (wydawnictwo+)>
+<!ELEMENT wydawnictwo (nazwa,adres,email?)>
+<!ELEMENT nazwa (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+<!-- Wydawnictwa Koniec -->
+
+<!-- Autor Dokumentu -->
+
+<!ELEMENT autor_dokumentu (imie,nazwisko,indeks,grupa,zajecia)>
+<!ELEMENT indeks (#PCDATA)>
+<!ELEMENT grupa (#PCDATA)>
+<!ELEMENT zajecia (#PCDATA)>
+
+<!-- Autor Dokumentu Koniec -->
+
+<!-- Biblioteka Koniec -->
+
+<!-- Definicje Elementów Koniec -->
+
+
+
+<!-- Definicje Atrybutów -->
+
+<!-- Dział -->
+
+<!ATTLIST dzial id ID #REQUIRED>
+<!ATTLIST dzial nazwa CDATA #REQUIRED>
+<!ATTLIST dzial pozycje CDATA "0">
+
+<!-- Dział Koniec -->
+
+<!-- Książka -->
+
+<!ATTLIST ksiazka isbn ID #REQUIRED>
+<!ATTLIST ksiazka wypozyczona (true|false) "false">
+<!ATTLIST ksiazka na_sprzedaz (true|false) "false">
+
+<!-- Książka Koniec -->
+
+<!-- Wydawca -->
+
+<!ATTLIST wydawca id IDREF #REQUIRED>
+
+<!-- Wydawca Koniec -->
+
+<!-- Cena -->
+
+<!ATTLIST cena waluta NMTOKEN #FIXED "pln">
+
+<!-- Cena Koniec -->
+
+<!-- Ulica -->
+
+<!ATTLIST ulica numer CDATA #REQUIRED>
+<!ATTLIST ulica lokal CDATA "">
+
+<!-- Ulica Koniec -->
+
+<!-- Pozycja -->
+
+<!ATTLIST pozycja id IDREF #REQUIRED>
+<!ATTLIST pozycja zwrot_terminowy (true|false|-) "false">
+<!ATTLIST pozycja okres_wypozyczenia CDATA #REQUIRED>
+
+<!-- Pozycja Koniec -->
+
+<!-- Wydawnictwo -->
+
+<!ATTLIST wydawnictwo id ID #REQUIRED>
+
+<!-- Wydawnictwo Koniec -->
+
+<!-- Definicje Atrybutów Koniec -->
+

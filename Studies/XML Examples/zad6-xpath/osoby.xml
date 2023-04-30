@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<osoby>
+<grupaStudentow>
+<student plec="m">
+<imie>Jan</imie>
+<nazwisko>Bohatyrowicz</nazwisko>
+<nrAlbumu>123459</nrAlbumu>
+<wiek> 21 </wiek>
+<zdobytePunkty> 40 </zdobytePunkty>
+</student>
+<student plec="k">
+<imie>Stefania</imie>
+<nazwisko>Rudecka</nazwisko>
+<nrAlbumu>127687</nrAlbumu>
+<wiek> 23 </wiek>
+<zdobytePunkty> 100</zdobytePunkty>
+</student>
+<student plec="m">
+<imie>Teofil</imie>
+<nazwisko>Różyc</nazwisko>
+<nrAlbumu> 765432</nrAlbumu>
+<wiek> 24 </wiek>
+<zdobytePunkty> 80</zdobytePunkty>
+</student>
+<student plec="k">
+<imie>Aleksandra</imie>
+<nrAlbumu>445566</nrAlbumu>
+<nazwisko>Billowiczówna</nazwisko>
+<wiek> 22 </wiek>
+<zdobytePunkty> 75</zdobytePunkty>
+</student>
+<student plec="m">
+<nazwisko>Kmicic</nazwisko>
+<imie>Andrzej</imie>
+<wiek> 20 </wiek>
+<zdobytePunkty> 10</zdobytePunkty>
+</student>
+</grupaStudentow>
+<grupaPracownikow>
+<pracownik plec="m">
+<imie> Michał</imie>
+<nazwisko> Wołodyjowski</nazwisko>
+<nr_prac> 87987</nr_prac>
+<wiek> 60 </wiek>
+</pracownik>
+<pracownik plec="m">
+<imie> Bogusław</imie>
+<nazwisko> Radziwił</nazwisko>
+<nr_prac> 65665</nr_prac>
+<wiek> 40 </wiek>
+</pracownik>
+<pracownik plec="k">
+<imie> Barbara</imie>
+<nazwisko> Wołodyjowska</nazwisko>
+<nr_prac> 56734</nr_prac>
+<wiek> 45 </wiek>
+</pracownik>
+</grupaPracownikow>
+</osoby>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+
+<biblioteka>
+	<dzial id="_001" nazwa="Kryminał" pozycje="5">
+		<ksiazka isbn="_978-83-32412-23-3" wypozyczona="false" na_sprzedaz="true">
+			<tytul>Tajemnica Zaginionej Lalki</tytul>
+			<autor>James Hold</autor>
+			<przeklad>Zbigniew Górski</przeklad>
+			<wydawca id="_32412"/>
+			<rok_wydania>2015</rok_wydania>
+			<okladka>twarda</okladka>
+			<cena waluta="pln">29.99</cena>
+		</ksiazka>
+		<ksiazka isbn="_978-83-32412-37-2" wypozyczona="false" na_sprzedaz="false">
+			<tytul>Dezerterzy</tytul>
+			<autor>Marry Blake</autor>
+			<przeklad>Patryk Ochucki</przeklad>
+			<wydawca id="_32412"/>
+			<rok_wydania>2018</rok_wydania>
+			<okladka>miękka</okladka>
+		</ksiazka>
+		<ksiazka isbn="_978-83-276412-3-1" wypozyczona="false" na_sprzedaz="false">
+			<tytul>Sekret Nocy</tytul>
+			<autor>Antony Price</autor>
+			<przeklad>Ignacy Rosicki</przeklad>
+			<wydawca id="_276412"/>
+			<rok_wydania>2012</rok_wydania>
+			<okladka>miękka</okladka>
+		</ksiazka>
+		<ksiazka isbn="_978-83-32412-12-6" wypozyczona="false" na_sprzedaz="false">
+			<tytul>Prawda Objawiona</tytul>
+			<autor>Artur Lipiński</autor>
+			<przeklad>-</przeklad>
+			<wydawca id="_32412"/>
+			<rok_wydania>2015</rok_wydania>
+			<okladka>miękka</okladka>
+		</ksiazka>
+		<ksiazka isbn="_978-83-276412-9-1" wypozyczona="true" na_sprzedaz="true">
+			<tytul>Wartownicy</tytul>
+			<autor>Christian Goldman</autor>
+			<przeklad>Ewelina Tymanowska</przeklad>
+			<wydawca id="_276412"/>
+			<rok_wydania>2019</rok_wydania>
+			<okladka>twarda</okladka>
+			<cena waluta="pln">35.45</cena>
+		</ksiazka>
+	</dzial>
+	<dzial id="_002" nazwa="Fantastyka" pozycje="5">
+		<ksiazka isbn="_978-83-3821-243-1" wypozyczona="false" na_sprzedaz="false">
+			<tytul>Wieża Przeznaczenia</tytul>
+			<autor>Arthur Doyle</autor>
+			<przeklad>Agnieszka Lisicka</przeklad>
+			<wydawca id="_3821"/>
+			<rok_wydania>2013</rok_wydania>
+			<okladka>miękka</okladka>
+		</ksiazka>
+		<ksiazka isbn="_978-83-3821-189-2" wypozyczona="false" na_sprzedaz="false">
+			<tytul>Gniew Smauga</tytul>
+			<autor>Jake Ostin</autor>
+			<przeklad>Bartosz Warchocki</przeklad>
+			<wydawca id="_3821"/>
+			<rok_wydania>2008</rok_wydania>
+			<okladka>twarda</okladka>
+		</ksiazka>
+		<ksiazka isbn="_978-83-3821-868-8" wypozyczona="false" na_sprzedaz="true">
+			<tytul>CyberGra</tytul>
+			<autor>Benjamin Bark</autor>
+			<przeklad>Bogna Wieniawska</przeklad>
+			<wydawca id="_3821"/>
+			<rok_wydania>2014</rok_wydania>
+			<okladka>miękka</okladka>
+			<cena waluta="pln">26.99</cena>
+		</ksiazka>
+		<ksiazka isbn="_978-83-32412-21-1" wypozyczona="false" na_sprzedaz="false">
+			<tytul>Alduina</tytul>
+			<autor>Magda Borucka</autor>
+			<przeklad>-</przeklad>
+			<wydawca id="_32412"/>
+			<rok_wydania>2017</rok_wydania>
+			<okladka>miękka</okladka>
+		</ksiazka>
+		<ksiazka isbn="_978-83-32412-81-7" wypozyczona="false" na_sprzedaz="true">
+			<tytul>Katedra</tytul>
+			<autor>Wiliam Barns</autor>
+			<przeklad>Krystian Milecki</przeklad>
+			<wydawca id="_32412"/>
+			<rok_wydania>2005</rok_wydania>
+			<okladka>miękka</okladka>
+			<cena waluta="pln">15.45</cena>
+		</ksiazka>
+	</dzial>
+	<dzial id="_003" nazwa="Poradnik" pozycje="5">
+		<ksiazka isbn="_978-83-3821-111-4" wypozyczona="false" na_sprzedaz="true">
+			<tytul>Tatry- przewodnik górski</tytul>
+			<autor>Adam Bareja</autor>
+			<przeklad>-</przeklad>
+			<wydawca id="_3821"/>
+			<rok_wydania>1995</rok_wydania>
+			<okladka>miękka</okladka>
+			<cena waluta="pln">9.99</cena>
+		</ksiazka>
+		<ksiazka isbn="_978-83-3821-002-9" wypozyczona="false" na_sprzedaz="true">
+			<tytul>100 przepisów na każdą okazję</tytul>
+			<autor>Gordon Ramsey</autor>
+			<przeklad>Bożena Piesicka</przeklad>
+			<wydawca id="_3821"/>
+			<rok_wydania>2019</rok_wydania>
+			<okladka>twarda</okladka>
+			<cena waluta="pln">69.99</cena>
+		</ksiazka>
+		<ksiazka isbn="_978-83-3821-008-1" wypozyczona="false" na_sprzedaz="false">
+			<tytul>Jak wykorzystać swoje mocne strony?</tytul>
+			<autor>Jacek Puchacki</autor>
+			<przeklad>-</przeklad>
+			<wydawca id="_3821"/>
+			<rok_wydania>2012</rok_wydania>
+			<okladka>twarda</okladka>
+		</ksiazka>
+		<ksiazka isbn="_978-83-276412-5-0" wypozyczona="false" na_sprzedaz="false">
+			<tytul>Kuchnia Śródziemnomorska</tytul>
+			<autor>Magda Gessler</autor>
+			<przeklad>-</przeklad>
+			<wydawca id="_276412"/>
+			<rok_wydania>2014</rok_wydania>
+			<okladka>twarda</okladka>
+		</ksiazka>
+		<ksiazka isbn="_978-83-276412-8-2" wypozyczona="false" na_sprzedaz="false">
+			<tytul>Motywacja czyli chęć do działania</tytul>
+			<autor>Mike Klins</autor>
+			<przeklad>Anna Kamis</przeklad>
+			<wydawca id="_276412"/>
+			<rok_wydania>2010</rok_wydania>
+			<okladka>miękka</okladka>
+		</ksiazka>
+	</dzial>
+	<dzial id="_004" nazwa="Horror/Thriller" pozycje="5">
+		<ksiazka isbn="_978-83-32412-09-3" wypozyczona="false" na_sprzedaz="false">
+			<tytul>Mogiła</tytul>
+			<autor>Christian Oak</autor>
+			<przeklad>Julian Kornat</przeklad>
+			<wydawca id="_32412"/>
+			<rok_wydania>2016</rok_wydania>
+			<okladka>miękka</okladka>
+		</ksiazka>
+		<ksiazka isbn="_978-83-32412-31-4" wypozyczona="true" na_sprzedaz="true">
+			<tytul>Bezkresny Mrok</tytul>
+			<autor>Stephen Lin</autor>
+			<przeklad>Piotr Lasek</przeklad>
+			<wydawca id="_32412"/>
+			<rok_wydania>2020</rok_wydania>
+			<okladka>miękka</okladka>
+			<cena waluta="pln">34.55</cena>
+		</ksiazka>
+		<ksiazka isbn="_978-83-32412-83-6" wypozyczona="false" na_sprzedaz="false">
+			<tytul>Redrum</tytul>
+			<autor>John Orwell</autor>
+			<przeklad>Agata Rej</przeklad>
+			<wydawca id="_32412"/>
+			<rok_wydania>2016</rok_wydania>
+			<okladka>twarda</okladka>
+		</ksiazka>
+		<ksiazka isbn="_978-83-3821-143-3" wypozyczona="false" na_sprzedaz="true">
+			<tytul>Mr. Smith</tytul>
+			<autor>Mary King</autor>
+			<przeklad>Patryk Izdebski</przeklad>
+			<wydawca id="_3821"/>
+			<rok_wydania>2009</rok_wydania>
+			<okladka>miękka</okladka>
+			<cena waluta="pln">25.45</cena>
+		</ksiazka>
+		<ksiazka isbn="_978-83-276412-1-1" wypozyczona="false" na_sprzedaz="true">
+			<tytul>Naznaczony</tytul>
+			<autor>Artur Bąk</autor>
+			<przeklad>-</przeklad>
+			<wydawca id="_276412"/>
+			<rok_wydania>2015</rok_wydania>
+			<okladka>twarda</okladka>
+			<cena waluta="pln">45.55</cena>
+		</ksiazka>
+	</dzial>
+	<klienci>
+		<klient>
+			<imie>Jan</imie>
+			<nazwisko>Kowalski</nazwisko>
+			<pesel>76102783617</pesel>
+			<adres>
+				<miasto>Bydgoszcz</miasto>
+				<kod_pocztowy>67-218</kod_pocztowy>
+				<ulica numer="3" lokal="24">Portowa</ulica>
+			</adres>
+			<wypozyczenia>
+				<pozycja id="_978-83-276412-9-1" zwrot_terminowy="false" okres_wypozyczenia="2t">
+					<data_wypozyczenia>2021-10-05</data_wypozyczenia>
+					<opoznienie>2</opoznienie>
+				</pozycja>
+			</wypozyczenia>
+		</klient>
+		<klient>
+			<imie>Maria</imie>
+			<nazwisko>Kamińska</nazwisko>
+			<pesel>88052073814</pesel>
+			<adres>
+				<miasto>Toruń</miasto>
+				<kod_pocztowy>13-521</kod_pocztowy>
+				<ulica numer="98" lokal="9">Zamenhofa</ulica>
+			</adres>
+			<wypozyczenia>
+				<pozycja id="_978-83-276412-5-0" zwrot_terminowy="true" okres_wypozyczenia="1m">
+					<data_wypozyczenia>2021-10-05</data_wypozyczenia>
+					<data_zwrotu>2021-10-25</data_zwrotu>
+					<opoznienie>brak</opoznienie>
+				</pozycja>
+			</wypozyczenia>
+		</klient>
+		<klient>
+			<imie>Krzysztof</imie>
+			<nazwisko>Rogowski</nazwisko>
+			<pesel>91021828354</pesel>
+			<adres>
+				<miasto>Płock</miasto>
+				<kod_pocztowy>12-145</kod_pocztowy>
+				<ulica numer="3" lokal="5">Ponura</ulica>
+			</adres>
+			<wypozyczenia>
+				<pozycja id="_978-83-276412-1-1" zwrot_terminowy="true" okres_wypozyczenia="1m">
+					<data_wypozyczenia>2021-10-15</data_wypozyczenia>
+					<data_zwrotu>2021-10-25</data_zwrotu>
+					<opoznienie>brak</opoznienie>
+				</pozycja>
+				<pozycja id="_978-83-32412-09-3" zwrot_terminowy="true" okres_wypozyczenia="1m">
+					<data_wypozyczenia>2021-10-01</data_wypozyczenia>
+					<data_zwrotu>2021-10-18</data_zwrotu>
+					<opoznienie>brak</opoznienie>
+				</pozycja>
+				<pozycja id="_978-83-32412-31-4"  okres_wypozyczenia="3m">
+					<data_wypozyczenia>2021-10-15</data_wypozyczenia>
+					<opoznienie>brak</opoznienie>
+				</pozycja>
+			</wypozyczenia>
+		</klient>
+	</klienci>
+	<wydawnictwa>
+		<wydawnictwo id="_32412">
+			<nazwa>Arktus</nazwa>
+			<adres>
+				<miasto>Gdańsk</miasto>
+				<kod_pocztowy>23-154</kod_pocztowy>
+				<ulica numer="5" lokal="298">Bolesława Chrobrego</ulica>
+			</adres>
+			<email>arktus@interia.pl</email>
+		</wydawnictwo>
+		<wydawnictwo id="_276412">
+			<nazwa>Astralis</nazwa>
+			<adres>
+				<miasto>Kraków</miasto>
+				<kod_pocztowy>12-092</kod_pocztowy>
+				<ulica numer="123" lokal="5">Ogrodowa</ulica>
+			</adres>
+			<email>astra@gmail.com</email>
+		</wydawnictwo>
+		<wydawnictwo id="_3821">
+			<nazwa>Obram</nazwa>
+			<adres>
+				<miasto>Poznań</miasto>
+				<kod_pocztowy>34-561</kod_pocztowy>
+				<ulica numer="2">Parawanowa</ulica>
+			</adres>
+			<email>obram@wp.pl</email>
+		</wydawnictwo>
+	</wydawnictwa>
+	<autor_dokumentu>
+		<imie>Bartosz</imie>
+		<nazwisko>Żak</nazwisko>
+		<indeks>236713</indeks>
+		<grupa>1</grupa>
+		<zajecia>Czwartek 12:00</zajecia>
+	</autor_dokumentu>
+</biblioteka>

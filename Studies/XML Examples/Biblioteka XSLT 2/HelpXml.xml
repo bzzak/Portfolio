@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<raport>
+	<spis>
+		<ksiazka>
+			<isbn>978-83-32412-37-2</isbn>
+			<tytul>Dezerterzy</tytul>
+			<autor>Marry Blake</autor>
+			<gatunek>Kryminał</gatunek>
+			<wydawca>Arktus</wydawca>
+			<rok_wydania>2018</rok_wydania>
+			<cena>0</cena>
+			<na_stanie>TAK</na_stanie>
+		</ksiazka>
+		<ksiazka>
+			<isbn>978-83-32412-12-6</isbn>
+			<tytul>Prawda Objawiona</tytul>
+			<autor>Artur Lipiński</autor>
+			<gatunek>Kryminał</gatunek>
+			<wydawca>Arktus</wydawca>
+			<rok_wydania>2015</rok_wydania>
+			<cena>0</cena>
+			<na_stanie>TAK</na_stanie>
+		</ksiazka>
+		<ksiazka>
+			<isbn>978-83-276412-3-1</isbn>
+			<tytul>Sekret Nocy</tytul>
+			<autor>Antony Price</autor>
+			<gatunek>Kryminał</gatunek>
+			<wydawca>Astralis</wydawca>
+			<rok_wydania>2012</rok_wydania>
+			<cena>0</cena>
+			<na_stanie>TAK</na_stanie>
+		</ksiazka>
+		<ksiazka>
+			<isbn>978-83-32412-23-3</isbn>
+			<tytul>Tajemnica Zaginionej Lalki</tytul>
+			<autor>James Hold</autor>
+			<gatunek>Kryminał</gatunek>
+			<wydawca>Arktus</wydawca>
+			<rok_wydania>2015</rok_wydania>
+			<cena>29.99</cena>
+			<na_stanie>TAK</na_stanie>
+		</ksiazka>
+		<ksiazka>
+			<isbn>978-83-276412-9-1</isbn>
+			<tytul>Wartownicy</tytul>
+			<autor>Christian Goldman</autor>
+			<gatunek>Kryminał</gatunek>
+			<wydawca>Astralis</wydawca>
+			<rok_wydania>2019</rok_wydania>
+			<cena>35.45</cena>
+			<na_stanie>NIE</na_stanie>
+		</ksiazka>
+		<ksiazka>
+			<isbn>978-83-32412-21-1</isbn>
+			<tytul>Alduina</tytul>
+			<autor>Magda Borucka</autor>
+			<gatunek>Fantastyka</gatunek>
+			<wydawca>Arktus</wydawca>
+			<rok_wydania>2017</rok_wydania>
+			<cena>0</cena>
+			<na_stanie>TAK</na_stanie>
+		</ksiazka>
+		<ksiazka>
+			<isbn>978-83-3821-868-8</isbn>
+			<tytul>CyberGra</tytul>
+			<autor>Benjamin Bark</autor>
+			<gatunek>Fantastyka</gatunek>
+			<wydawca>Obram</wydawca>
+			<rok_wydania>2014</rok_wydania>
+			<cena>26.99</cena>
+			<na_stanie>TAK</na_stanie>
+		</ksiazka>
+		<ksiazka>
+			<isbn>978-83-3821-189-2</isbn>
+			<tytul>Gniew Smauga</tytul>
+			<autor>Jake Ostin</autor>
+			<gatunek>Fantastyka</gatunek>
+			<wydawca>Obram</wydawca>
+			<rok_wydania>2008</rok_wydania>
+			<cena>0</cena>
+			<na_stanie>TAK</na_stanie>
+		</ksiazka>
+		<ksiazka>
+			<isbn>978-83-32412-81-7</isbn>
+			<tytul>Katedra</tytul>
+			<autor>Wiliam Barns</autor>
+			<gatunek>Fantastyka</gatunek>
+			<wydawca>Arktus</wydawca>
+			<rok_wydania>2005</rok_wydania>
+			<cena>15.45</cena>
+			<na_stanie>TAK</na_stanie>
+		</ksiazka>
+		<ksiazka>
+			<isbn>978-83-3821-243-1</isbn>
+			<tytul>Wieża Przeznaczenia</tytul>
+			<autor>Arthur Doyle</autor>
+			<gatunek>Fantastyka</gatunek>
+			<wydawca>Obram</wydawca>
+			<rok_wydania>2013</rok_wydania>
+			<cena>0</cena>
+			<na_stanie>TAK</na_stanie>
+		</ksiazka>
+		<ksiazka>
+			<isbn>978-83-3821-002-9</isbn>
+			<tytul>100 przepisów na każdą okazję</tytul>
+			<autor>Gordon Ramsey</autor>
+			<gatunek>Poradnik</gatunek>
+			<wydawca>Obram</wydawca>
+			<rok_wydania>2019</rok_wydania>
+			<cena>69.99</cena>
+			<na_stanie>TAK</na_stanie>
+		</ksiazka>
+		<ksiazka>
+			<isbn>978-83-3821-008-1</isbn>
+			<tytul>Jak wykorzystać swoje mocne strony?</tytul>
+			<autor>Jacek Puchacki</autor>
+			<gatunek>Poradnik</gatunek>
+			<wydawca>Obram</wydawca>
+			<rok_wydania>2012</rok_wydania>
+			<cena>0</cena>
+			<na_stanie>TAK</na_stanie>
+		</ksiazka>
+		<ksiazka>
+			<isbn>978-83-276412-5-0</isbn>
+			<tytul>Kuchnia Śródziemnomorska</tytul>
+			<autor>Magda Gessler</autor>
+			<gatunek>Poradnik</gatunek>
+			<wydawca>Astralis</wydawca>
+			<rok_wydania>2014</rok_wydania>
+			<cena>0</cena>
+			<na_stanie>TAK</na_stanie>
+		</ksiazka>
+		<ksiazka>
+			<isbn>978-83-276412-8-2</isbn>
+			<tytul>Motywacja czyli chęć do działania</tytul>
+			<autor>Mike Klins</autor>
+			<gatunek>Poradnik</gatunek>
+			<wydawca>Astralis</wydawca>
+			<rok_wydania>2010</rok_wydania>
+			<cena>0</cena>
+			<na_stanie>TAK</na_stanie>
+		</ksiazka>
+		<ksiazka>
+			<isbn>978-83-3821-111-4</isbn>
+			<tytul>Tatry- przewodnik górski</tytul>
+			<autor>Adam Bareja</autor>
+			<gatunek>Poradnik</gatunek>
+			<wydawca>Obram</wydawca>
+			<rok_wydania>1995</rok_wydania>
+			<cena>9.99</cena>
+			<na_stanie>TAK</na_stanie>
+		</ksiazka>
+		<ksiazka>
+			<isbn>978-83-32412-31-4</isbn>
+			<tytul>Bezkresny Mrok</tytul>
+			<autor>Stephen Lin</autor>
+			<gatunek>Horror/Thriller</gatunek>
+			<wydawca>Arktus</wydawca>
+			<rok_wydania>2020</rok_wydania>
+			<cena>34.55</cena>
+			<na_stanie>NIE</na_stanie>
+		</ksiazka>
+		<ksiazka>
+			<isbn>978-83-32412-09-3</isbn>
+			<tytul>Mogiła</tytul>
+			<autor>Christian Oak</autor>
+			<gatunek>Horror/Thriller</gatunek>
+			<wydawca>Arktus</wydawca>
+			<rok_wydania>2016</rok_wydania>
+			<cena>0</cena>
+			<na_stanie>TAK</na_stanie>
+		</ksiazka>
+		<ksiazka>
+			<isbn>978-83-3821-143-3</isbn>
+			<tytul>Mr. Smith</tytul>
+			<autor>Mary King</autor>
+			<gatunek>Horror/Thriller</gatunek>
+			<wydawca>Obram</wydawca>
+			<rok_wydania>2009</rok_wydania>
+			<cena>25.45</cena>
+			<na_stanie>TAK</na_stanie>
+		</ksiazka>
+		<ksiazka>
+			<isbn>978-83-276412-1-1</isbn>
+			<tytul>Naznaczony</tytul>
+			<autor>Artur Bąk</autor>
+			<gatunek>Horror/Thriller</gatunek>
+			<wydawca>Astralis</wydawca>
+			<rok_wydania>2015</rok_wydania>
+			<cena>45.55</cena>
+			<na_stanie>TAK</na_stanie>
+		</ksiazka>
+		<ksiazka>
+			<isbn>978-83-32412-83-6</isbn>
+			<tytul>Redrum</tytul>
+			<autor>John Orwell</autor>
+			<gatunek>Horror/Thriller</gatunek>
+			<wydawca>Arktus</wydawca>
+			<rok_wydania>2016</rok_wydania>
+			<cena>0</cena>
+			<na_stanie>TAK</na_stanie>
+		</ksiazka>
+	</spis>
+	<klienci>
+		<klient>
+			<imie>Jan</imie>
+			<nazwisko>Kowalski</nazwisko>
+			<pesel>76102783617</pesel>
+			<ilosc_wypozyczen>1</ilosc_wypozyczen>
+		</klient>
+		<klient>
+			<imie>Maria</imie>
+			<nazwisko>Kamińska</nazwisko>
+			<pesel>88052073814</pesel>
+			<ilosc_wypozyczen>1</ilosc_wypozyczen>
+		</klient>
+		<klient>
+			<imie>Krzysztof</imie>
+			<nazwisko>Rogowski</nazwisko>
+			<pesel>91021828354</pesel>
+			<ilosc_wypozyczen>3</ilosc_wypozyczen>
+		</klient>
+	</klienci>
+	<wypozyczenia>
+		<pozycja>
+			<wypozyczajacy>Jan Kowalski 76102783617</wypozyczajacy>
+			<autor>Christian Goldman</autor>
+			<tytul>Wartownicy</tytul>
+			<isbn>978-83-276412-9-1</isbn>
+			<data_wypozyczenia>2021-10-05</data_wypozyczenia>
+			<data_zwrotu>-</data_zwrotu>
+		</pozycja>
+		<pozycja>
+			<wypozyczajacy>Maria Kamińska 88052073814</wypozyczajacy>
+			<autor>Magda Gessler</autor>
+			<tytul>Kuchnia Śródziemnomorska</tytul>
+			<isbn>978-83-276412-5-0</isbn>
+			<data_wypozyczenia>2021-10-05</data_wypozyczenia>
+			<data_zwrotu>2021-10-25</data_zwrotu>
+		</pozycja>
+		<pozycja>
+			<wypozyczajacy>Krzysztof Rogowski 91021828354</wypozyczajacy>
+			<autor>Artur Bąk</autor>
+			<tytul>Naznaczony</tytul>
+			<isbn>978-83-276412-1-1</isbn>
+			<data_wypozyczenia>2021-10-15</data_wypozyczenia>
+			<data_zwrotu>2021-10-25</data_zwrotu>
+		</pozycja>
+		<pozycja>
+			<wypozyczajacy>Krzysztof Rogowski 91021828354</wypozyczajacy>
+			<autor>Christian Oak</autor>
+			<tytul>Mogiła</tytul>
+			<isbn>978-83-32412-09-3</isbn>
+			<data_wypozyczenia>2021-10-01</data_wypozyczenia>
+			<data_zwrotu>2021-10-18</data_zwrotu>
+		</pozycja>
+		<pozycja>
+			<wypozyczajacy>Krzysztof Rogowski 91021828354</wypozyczajacy>
+			<autor>Stephen Lin</autor>
+			<tytul>Bezkresny Mrok</tytul>
+			<isbn>978-83-32412-31-4</isbn>
+			<data_wypozyczenia>2021-10-15</data_wypozyczenia>
+			<data_zwrotu>-</data_zwrotu>
+		</pozycja>
+	</wypozyczenia>
+	<wydawnictwa>
+		<wydawnictwo>
+			<id>32412</id>
+			<nazwa>Arktus</nazwa>
+			<email>arktus@interia.pl</email>
+		</wydawnictwo>
+		<wydawnictwo>
+			<id>276412</id>
+			<nazwa>Astralis</nazwa>
+			<email>astra@gmail.com</email>
+		</wydawnictwo>
+		<wydawnictwo>
+			<id>3821</id>
+			<nazwa>Obram</nazwa>
+			<email>obram@wp.pl</email>
+		</wydawnictwo>
+	</wydawnictwa>
+	<autor>
+		<imie>Bartosz</imie>
+		<nazwisko>Żak</nazwisko>
+		<indeks>236713</indeks>
+	</autor>
+	<podsumowanie>
+		<ilosc_ksiazek>
+			<kryminal>5</kryminal>
+			<fantastyka>5</fantastyka>
+			<poradnik>5</poradnik>
+			<horror>5</horror>
+			<arktus>8</arktus>
+			<obram>7</obram>
+			<astralis>5</astralis>
+			<na_stanie>18</na_stanie>
+			<wypozyczone>2</wypozyczone>
+			<razem>20</razem>
+		</ilosc_ksiazek>
+		<wartosc_ksiazek>
+			<kryminal>65.44</kryminal>
+			<fantastyka>42.44</fantastyka>
+			<poradnik>79.98</poradnik>
+			<horror>105.55</horror>
+			<razem>293.41</razem>
+		</wartosc_ksiazek>
+		<srednie>
+			<kryminal>32.72</kryminal>
+			<fantastyka>21.22</fantastyka>
+			<poradnik>39.99</poradnik>
+			<horror>35.18</horror>
+			<razem>32.6</razem>
+		</srednie>
+	</podsumowanie>
+	<ranking>
+		<najdrozsza>100 przepisów na każdą okazję</najdrozsza>
+		<najtansza>Tatry- przewodnik górski</najtansza>
+	</ranking>
+	<data>2022-02-05</data>
+</raport>

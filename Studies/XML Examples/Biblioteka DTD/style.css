@@ -1,0 +1,484 @@
+biblioteka {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Verdana, sans-serif;
+	background-color: #111111;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+
+biblioteka::before {
+	content: 'Biblioteka';
+	display: block;
+	height: 20vw;
+	width: 20vw;
+	font-size: 40px;
+	border: 3px solid;
+	border-radius: 50%;
+	position: relative;
+	top: 26vh;
+	transform: translateY(-50%);
+	color: white;
+	text-align: center;
+	line-height: 20vw;
+	animation: borderRainbow 5s linear infinite alternate;
+	margin: 24vh;
+	z-index: 0;
+}
+
+biblioteka::after {
+	content: '';
+	background-color: transparent;
+	display: block;
+	width: 100vw;
+	height: 12vh;
+}
+
+@keyframes borderRainbow {
+	0% {border-color: purple;}
+	14% {border-color: blue;}
+	28% {border-color: aqua;}
+	42% {border-color: green;}
+	56% {border-color: yellow;}
+	70% {border-color: orange;}
+	84% {border-color: red;}
+}
+
+
+autor_dokumentu::before {
+	display: block;
+	width: 100vw;
+	height: 5vh;
+	border-top: 3px solid #AAAAAA;
+	border-bottom: 3px solid #AAAAAA;
+	background-color: #666666;
+	font-size: 25px;
+	color: white;
+	line-height: 5vh;
+	position: fixed;
+	content: 'Autor';
+	text-align: center;
+	bottom: 5vh;	
+}
+
+
+
+autor_dokumentu {
+	display: flex;
+	width: 100vw;
+	height: 5vh;
+	font-size: 21px;
+	color: white;
+	position: fixed;
+	top: 95vh;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color: #111111;
+	z-index: 10;
+	
+}
+
+autor_dokumentu imie {
+	color: purple;	
+}
+
+autor_dokumentu nazwisko {
+	color: blue;
+}
+
+autor_dokumentu indeks {
+	color: green;
+}
+
+autor_dokumentu grupa {
+	color: yellow;
+}
+
+autor_dokumentu zajecia {
+	color: red;
+}
+
+
+autor_dokumentu imie::before {
+	content: 'Imię: ';
+}
+
+autor_dokumentu nazwisko::before {
+	content: 'Nazwisko: ';
+}
+
+autor_dokumentu indeks::before {
+	content: 'Indeks: ';
+}
+
+autor_dokumentu grupa::before {
+	content: 'Grupa: ';
+}
+
+autor_dokumentu zajecia::before {
+	content: 'Zajecia: ';
+}
+
+wydawnictwa, klienci, dzial {
+	display: block;
+	width: 85vw;
+	border-radius: 10px;
+	/*transform: translateY(-15vh);*/
+	z-index: 5;
+}
+
+wydawnictwo, klient, ksiazka {
+	display: flex;
+	position: relative;
+	font-size: 20px;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-left: 2vw;
+}
+
+wydawnictwo {
+	color: #4d1a12;
+	height: 15vh;
+}
+
+wydawnictwo:nth-child(even) {
+	background-color: #cf6d5d;
+}
+
+wydawnictwa::before, klienci::before, dzial::before {
+	display: block;
+	width: 80%;
+	text-align: center;
+	margin: 0 9vw 1vh 9vw;
+	font-size: 25px;
+}
+
+wydawnictwo::before {
+	content: 'Id: ' attr(id);
+}
+
+nazwa::before {
+	content: 'Nazwa: ';
+}
+
+email::before {
+	content: 'Email: ';
+}
+
+miasto::before {
+	content: 'Miasto: ';
+}
+
+kod_pocztowy::before {
+	content: 'Kod Pocztowy: ';
+}
+
+ulica::before {
+	content: 'Ulica: ';
+}
+
+ulica::after {
+	content: ' ' attr(numer) '/' attr(lokal);
+}
+
+ adres {
+	display: flex;
+	box-sizing: border-box;
+	padding-left: 15px;
+	width: 50%;
+	position: absolute;
+	flex-direction: column;
+	justify-content: space-around;
+	right: 0;
+	top: 1vh;
+}
+
+ wydawnictwa adres {
+	 border-left: 3px solid #a62f26;
+	 height: 80%;
+ }
+ 
+ klienci adres {
+	 border-left: 3px solid #0f146b;
+	 height: 10vh;
+ }
+
+wydawnictwa {
+	background-color: #cf7e70;
+	border: 3px solid #a62f26;
+}
+
+dzial, klienci {
+	margin: 5vh 0;
+}
+
+klienci {
+	background-color: #64657d;
+	border: 3px solid #0f146b;
+}
+
+dzial[nazwa="Kryminał"] {
+	background-color: #617d6c;
+	border: 3px solid #2a7d4b;
+}
+
+dzial[nazwa="Horror/Thriller"] {
+	background-color: #a8716c;
+	border: 3px solid #b32c20;
+}
+
+dzial[nazwa="Poradnik"] {
+	background-color: #9c8957;
+	border: 3px solid #9e7a19;
+}
+
+dzial[nazwa="Fantastyka"] {
+	background-color: #775494;
+	border: 3px solid #621f99;
+}
+
+
+
+
+wydawnictwa::before {
+	content: 'Wydawnictwa';
+	border-bottom: 3px solid #a62f26;
+	color: #b0230e;
+}
+
+klienci::before {
+	content: 'Klienci';
+	border-bottom: 3px solid #0f146b;
+	color: #242870;
+}
+
+dzial[nazwa="Kryminał"]::before {
+	content: 'Kryminał';
+	border-bottom: 3px solid #2a7d4b;
+	color: #065927;
+}
+
+dzial[nazwa="Horror/Thriller"]::before {
+	content: 'Horror/Thriller';
+	border-bottom: 3px solid #b32c20;
+	color: #8f1207;
+}
+
+dzial[nazwa="Poradnik"]::before {
+	content: 'Poradnik';
+	border-bottom: 3px solid #9e7a19;
+	color: #9c730c;
+}
+
+dzial[nazwa="Fantastyka"]::before {
+	content: 'Fantastyka';
+	border-bottom: 3px solid #621f99;
+	color: #4d0d82;
+}
+
+imie::before {
+	content: 'Imię: ';
+}
+
+nazwisko::before {
+	content: 'Nazwisko: ';
+}
+
+pesel::before {
+	content: 'PESEL: ';
+}
+
+klient {
+	color: #1e226b;
+}
+
+klient:nth-child(even) {
+	background-color: #51537a;
+}
+
+klient imie, klient nazwisko {
+	margin-bottom: 3px;
+}
+
+klient imie {
+	margin-top: 1.5vh;
+}
+
+klient pesel {
+	margin-bottom: 1vh;
+}
+
+imie, nazwisko, pesel {
+	padding-bottom: 0.5vh;
+}
+
+
+wypozyczenia::before {
+	content: 'Wypożyczenia';
+	display: block;
+	width: 85vw;
+	height: 3vh;
+	border-top: 3px solid #0f146b;
+	border-bottom: 3px solid #0f146b;
+	font-size: 18px;
+	text-align: center;
+	color: #242870;
+	position: relative;
+	top: 0;
+	left: -2vw;
+	margin-top: 1.5vh
+}
+
+pozycja {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-direction: column;
+	width: 100%;
+	height: 19vh;
+}
+
+
+pozycja[zwrot_terminowy="true"]::after {
+	content: 'Okres wypożyczenia: ' attr(okres_wypozyczenia)'  |   Zwrot terminowy: tak';
+}
+
+pozycja[zwrot_terminowy="false"]::after {
+	content: 'Okres wypożyczenia: ' attr(okres_wypozyczenia)'  |   Zwrot terminowy: nie';
+} 
+
+pozycja[zwrot_terminowy=""]::after {
+	content: 'Okres wypożyczenia: ' attr(okres_wypozyczenia)'  |   Zwrot terminowy: -';
+}
+
+data_wypozyczenia::before {
+	content: 'Data wypożyczenia: ';
+}
+
+data_zwrotu::before {
+	content: 'Data zwrotu: ';
+}
+
+pozycja::before {
+	content: 'ISBN: ' attr(id);
+	display: list-item;
+	list-style-type: square;
+}
+
+opoznienie::before {
+	content: 'Opóźnienie: ';
+}
+
+ksiazka {
+	flex-wrap: wrap;
+	height: 23vh;
+}
+
+dzial[id="001"] ksiazka {
+	color: #18472b;
+}
+
+dzial[id="001"] ksiazka:nth-child(even) {
+	background-color: #4e996c;
+}
+
+dzial[id="002"] ksiazka {
+	color: #461a6b;
+}
+
+dzial[id="002"] ksiazka:nth-child(even) {
+	background-color: #7237a3;
+}
+
+dzial[id="003"] ksiazka {
+	color: #635122;
+}
+
+dzial[id="003"] ksiazka:nth-child(even) {
+	background-color: #9c8240;
+}
+
+dzial[id="004"] ksiazka {
+	color: #7a312b;
+}
+
+dzial[id="004"] ksiazka:nth-child(even) {
+	background-color: #9e524c;
+}
+
+ksiazka::before {
+	content: 'ISBN: ' attr(isbn);
+	display: block;
+	width: 45%;
+}
+
+tytul::before {
+	content: 'Tytuł: ';
+}
+
+autor::before {
+	content: 'Autor: ';
+}
+
+przeklad::before {
+	content: 'Przekład: ';
+}
+
+wydawca::before {
+	content: 'Id wydawcy: ' attr(id); 
+}
+
+rok_wydania::before {
+	content: 'Rok Wydania: '; 
+}
+
+okladka::before {
+	content: 'Okładka: '; 
+}
+
+cena::before {
+	content: 'Cena: '; 
+}
+
+ksiazka[na_sprzedaz="true"] cena::after {
+	content: ' ' attr(waluta);
+}
+
+ksiazka[na_sprzedaz="false"] cena::after {
+	content: '-';
+}
+
+ksiazka[wypozyczona=false]::after {
+	content: 'Wypożyczona: nie'
+}
+
+ksiazka[wypozyczona=true]::after {
+	content: 'Wypożyczona: tak'
+}
+
+ksiazka:after {
+	display: block;
+	width: 45%;
+}
+
+ksiazka::before, ksiazka::after {
+	padding-bottom: 1vh;
+}
+
+ksiazka>* {
+	display: block;
+	width: 45%;
+	padding-bottom: 1vh;
+}
+
+dzial>*:hover {
+	font-weight: bold;
+}
+
+
+
+

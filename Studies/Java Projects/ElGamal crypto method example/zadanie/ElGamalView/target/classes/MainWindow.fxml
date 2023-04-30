@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="103.0" layoutY="14.0" prefHeight="34.0" prefWidth="366.0" text="ElGamal" textFill="#050505">
+         <font>
+            <Font name="Arial Narrow Bold" size="30.0" />
+         </font></Label>
+      <Label layoutX="21.0" layoutY="74.0" prefHeight="30.0" prefWidth="88.0" text="Prime        p:">
+         <font>
+            <Font name="Arial Narrow" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="104.0" prefHeight="30.0" prefWidth="88.0" text="Generator g:">
+         <font>
+            <Font name="Arial Narrow" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="138.0" prefHeight="22.0" prefWidth="88.0" text="Private      a:">
+         <font>
+            <Font name="Arial Narrow" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="primeTextField" layoutX="109.0" layoutY="77.0" prefHeight="26.0" prefWidth="366.0" />
+      <TextField fx:id="generatorTextField" layoutX="109.0" layoutY="107.0" prefHeight="26.0" prefWidth="366.0" />
+      <TextField fx:id="privateTextField" layoutX="109.0" layoutY="137.0" prefHeight="26.0" prefWidth="366.0" />
+      <Button fx:id="generateButton" layoutX="484.0" layoutY="100.0" mnemonicParsing="false" onAction="#generate" prefHeight="36.0" prefWidth="98.0" text="Generate Keys">
+         <font>
+            <Font name="Arial Narrow" size="14.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="16.0" layoutY="173.0" prefHeight="26.0" prefWidth="98.0" text="Plain Text:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="plainArea" layoutX="16.0" layoutY="199.0" prefHeight="143.0" prefWidth="221.0" />
+      <TextArea fx:id="cypherArea" layoutX="364.0" layoutY="199.0" prefHeight="143.0" prefWidth="221.0" />
+      <Label layoutX="364.0" layoutY="173.0" text="Cypher Text:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="encryptButton" layoutX="265.0" layoutY="235.0" mnemonicParsing="false" onAction="#encrypt" prefHeight="36.0" prefWidth="70.0" text="Encrypt">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="251.0" layoutY="218.0" prefHeight="18.0" prefWidth="98.0" text="------------------&gt;" />
+      <Button fx:id="decryptButton" layoutX="265.0" layoutY="287.0" mnemonicParsing="false" onAction="#decrypt" prefHeight="36.0" prefWidth="70.0" text="Decrypt">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="251.0" layoutY="323.0" prefHeight="18.0" prefWidth="98.0" text="&lt;-----------------" />
+      <Button fx:id="openPlainButton" layoutX="14.0" layoutY="350.0" mnemonicParsing="false" onAction="#openPlain" prefHeight="36.0" prefWidth="70.0" text="Open">
+         <font>
+            <Font name="Arial Narrow" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="savePlainButton" layoutX="91.0" layoutY="350.0" mnemonicParsing="false" onAction="#savePlain" prefHeight="36.0" prefWidth="70.0" text="Save">
+         <font>
+            <Font name="Arial Narrow" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="openCypherButton" layoutX="440.0" layoutY="350.0" mnemonicParsing="false" onAction="#openCypher" prefHeight="36.0" prefWidth="70.0" text="Open">
+         <font>
+            <Font name="Arial Narrow" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="saveCypherButton" layoutX="515.0" layoutY="350.0" mnemonicParsing="false" onAction="#saveCypher" prefHeight="36.0" prefWidth="70.0" text="Save">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <RadioButton fx:id="plainRadio" layoutX="170.0" layoutY="359.0" mnemonicParsing="false" text="Use plain area" />
+      <RadioButton fx:id="cypherRadio" layoutX="408.0" layoutY="359.0" mnemonicParsing="false" />
+      <Label layoutX="313.0" layoutY="359.0" text="Use cypher area" />
+   </children>
+</AnchorPane>

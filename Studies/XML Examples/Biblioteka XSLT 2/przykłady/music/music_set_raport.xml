@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MuzycznyRaport>
+	<Album Nazwa="Let it Bleed" Wykonawca="Rolling Stones" Gatunek="Rock" Data_wydania_w_Polsce="1999-02-15" Ocena="91%" Dlugosc_albumu="00:42:21 minut" Wydawca="Olympic Studios" Cena="30zł" CenaDOLLAR="10$" CenaEURO="07€" CenaFUNT="06£">
+		<Piosenki>
+			<Piosenka Nazwa="Gimme Shelter" Dlugosc="00:04:31"/>
+			<Piosenka Nazwa="Country Honk" Dlugosc="00:04:19"/>
+			<Piosenka Nazwa="Love in Vain" Dlugosc="00:03:09"/>
+			<Piosenka Nazwa="Live with Me" Dlugosc="00:03:33"/>
+			<Piosenka Nazwa="Let it Bleed" Dlugosc="00:05:26"/>
+			<Piosenka Nazwa="Midnight Rambler" Dlugosc="00:06:52"/>
+			<Piosenka Nazwa="You Got the Silver" Dlugosc="00:02:51"/>
+			<Piosenka Nazwa="Monkey Man" Dlugosc="00:04:12"/>
+			<Piosenka Nazwa="You Can't Always Get What You Want" Dlugosc="00:07:28"/>
+		</Piosenki>
+	</Album>
+	<Album Nazwa="British Steel" Wykonawca="Judas Priest" Gatunek="Metal" Data_wydania_w_Polsce="1985-07-30" Ocena="87%" Dlugosc_albumu="00:36:10 minut" Wydawca="Columbia Records" Cena="45zł" CenaDOLLAR="15$" CenaEURO="11€" CenaFUNT="09£">
+		<Piosenki>
+			<Piosenka Nazwa="Rapid Fire" Dlugosc="00:04:08"/>
+			<Piosenka Nazwa="Metal Gods" Dlugosc="00:04:00"/>
+			<Piosenka Nazwa="Breaking the Law" Dlugosc="00:02:35"/>
+			<Piosenka Nazwa="Grinder" Dlugosc="00:03:58"/>
+			<Piosenka Nazwa="United" Dlugosc="00:03:35"/>
+			<Piosenka Nazwa="You Don't Have to Be Old to Be Wise" Dlugosc="00:05:04"/>
+			<Piosenka Nazwa="Living After Midnight" Dlugosc="00:03:31"/>
+			<Piosenka Nazwa="The Rage" Dlugosc="00:04:44"/>
+			<Piosenka Nazwa="Steeler" Dlugosc="00:04:30"/>
+		</Piosenki>
+	</Album>
+	<Album Nazwa="Kamikaze" Wykonawca="Eminem" Gatunek="Rap" Data_wydania_w_Polsce="2018-09-19" Ocena="62%" Dlugosc_albumu="00:45:49 minut" Wydawca="Aftermath" Cena="51zł" CenaDOLLAR="16$" CenaEURO="13€" CenaFUNT="10£">
+		<Piosenki>
+			<Piosenka Nazwa="The Ringer" Dlugosc="00:05:37"/>
+			<Piosenka Nazwa="Greatest" Dlugosc="00:03:46"/>
+			<Piosenka Nazwa="Lucky You" Dlugosc="00:04:04"/>
+			<Piosenka Nazwa="Paul" Dlugosc="00:00:35"/>
+			<Piosenka Nazwa="Normal" Dlugosc="00:03:42"/>
+			<Piosenka Nazwa="Em Calls Pau" Dlugosc="00:00:49"/>
+			<Piosenka Nazwa="Stepping Stone" Dlugosc="00:05:09"/>
+			<Piosenka Nazwa="Not Alike" Dlugosc="00:04:48"/>
+			<Piosenka Nazwa="Kamikaze" Dlugosc="00:03:36"/>
+			<Piosenka Nazwa="Fall" Dlugosc="00:03:36"/>
+			<Piosenka Nazwa="Nice Guy" Dlugosc="00:02:30"/>
+			<Piosenka Nazwa="Good Guy" Dlugosc="00:02:22"/>
+			<Piosenka Nazwa="Venom" Dlugosc="00:04:29"/>
+		</Piosenki>
+	</Album>
+	<Podsumowanie_informacji>
+		<Liczba_Albumow>3</Liczba_Albumow>
+		<Laczna_liczba_piosenek>31</Laczna_liczba_piosenek>
+		<Liczba_albumow_rockowych>1</Liczba_albumow_rockowych>
+		<Liczba_albumow_rapowych>1</Liczba_albumow_rapowych>
+		<Liczba_albumow_bluesowych>0</Liczba_albumow_bluesowych>
+		<Liczba_albumow_funkowych>0</Liczba_albumow_funkowych>
+		<Liczba_albumow_jazzowych>0</Liczba_albumow_jazzowych>
+		<Liczba_albumow_metalowych>1</Liczba_albumow_metalowych>
+		<Najwyzsza_ocena_albumu>91%</Najwyzsza_ocena_albumu>
+		<Najwyzej_oceniany_album>Let it Bleed</Najwyzej_oceniany_album>
+		<Naleznosc_w_POLSKICH_ZLOTYCH_za_zamowienie>113.34zł</Naleznosc_w_POLSKICH_ZLOTYCH_za_zamowienie>
+		<Naleznosc_w_FUNTACH_za_zamowienie>23.5£</Naleznosc_w_FUNTACH_za_zamowienie>
+		<Naleznosc_w_EURO_za_zamowienie>31.5€</Naleznosc_w_EURO_za_zamowienie>
+		<Naleznosc_w_DOLARACH_za_zamowienie>36.5$</Naleznosc_w_DOLARACH_za_zamowienie>
+		<VAT_odprowadzony_od_zamowienia>26zł</VAT_odprowadzony_od_zamowienia>
+		<Data_Raportu>04-12-2018</Data_Raportu>
+	</Podsumowanie_informacji>
+</MuzycznyRaport>

@@ -1,0 +1,85 @@
+                                                                     SPIS KSIĄŻEK                                                                                 
+__________________________________________________________________________________________________________________________________________________________________
+|         ISBN        |                   Tytuł              |          Autor         |         Gatunek        |   Wydawca    |  Wydanie  |   Cena   | Na Stanie |
+|*********************|**************************************|************************|************************|**************|***********|**********|***********|
+|  978-83-3821-002-9     100 przepisów na każdą okazję           Gordon Ramsey            Poradnik                 Obram          2019        69.99      TAK     |
+|  978-83-32412-21-1     Alduina                                 Magda Borucka            Fantastyka               Arktus         2017        0          TAK     |
+|  978-83-32412-31-4     Bezkresny Mrok                          Stephen Lin              Horror/Thriller          Arktus         2020        34.55      NIE     |
+|  978-83-3821-868-8     CyberGra                                Benjamin Bark            Fantastyka               Obram          2014        26.99      TAK     |
+|  978-83-32412-37-2     Dezerterzy                              Marry Blake              Kryminał                 Arktus         2018        0          TAK     |
+|  978-83-3821-189-2     Gniew Smauga                            Jake Ostin               Fantastyka               Obram          2008        0          TAK     |
+|  978-83-3821-008-1     Jak wykorzystać swoje mocne strony?     Jacek Puchacki           Poradnik                 Obram          2012        0          TAK     |
+|  978-83-32412-81-7     Katedra                                 Wiliam Barns             Fantastyka               Arktus         2005        15.45      TAK     |
+|  978-83-276412-5-0     Kuchnia Śródziemnomorska                Magda Gessler            Poradnik                 Astralis       2014        0          TAK     |
+|  978-83-32412-09-3     Mogiła                                  Christian Oak            Horror/Thriller          Arktus         2016        0          TAK     |
+|  978-83-276412-8-2     Motywacja czyli chęć do działania       Mike Klins               Poradnik                 Astralis       2010        0          TAK     |
+|  978-83-3821-143-3     Mr. Smith                               Mary King                Horror/Thriller          Obram          2009        25.45      TAK     |
+|  978-83-276412-1-1     Naznaczony                              Artur Bąk                Horror/Thriller          Astralis       2015        45.55      TAK     |
+|  978-83-32412-12-6     Prawda Objawiona                        Artur Lipiński           Kryminał                 Arktus         2015        0          TAK     |
+|  978-83-32412-83-6     Redrum                                  John Orwell              Horror/Thriller          Arktus         2016        0          TAK     |
+|  978-83-276412-3-1     Sekret Nocy                             Antony Price             Kryminał                 Astralis       2012        0          TAK     |
+|  978-83-32412-23-3     Tajemnica Zaginionej Lalki              James Hold               Kryminał                 Arktus         2015        29.99      TAK     |
+|  978-83-3821-111-4     Tatry- przewodnik górski                Adam Bareja              Poradnik                 Obram          1995        9.99       TAK     |
+|  978-83-276412-9-1     Wartownicy                              Christian Goldman        Kryminał                 Astralis       2019        35.45      NIE     |
+|  978-83-3821-243-1     Wieża Przeznaczenia                     Arthur Doyle             Fantastyka               Obram          2013        0          TAK     |
+|________________________________________________________________________________________________________________________________________________________________|
+
+                                                                    WYPOŻYCZENIA                                                                                
+__________________________________________________________________________________________________________________________________________________________________
+|        Wypożyczający      |     PESEL     |         ISBN        |                   Tytuł              |          Autor         |  Wypożyczono  |   Zwrócono   |
+|***************************|***************|*********************|**************************************|************************|***************|**************|
+|  Krzysztof Rogowski          91021828354     978-83-32412-31-4     Bezkresny Mrok                         Stephen Lin              2021-10-15      -           |
+|  Maria Kamińska              88052073814     978-83-276412-5-0     Kuchnia Śródziemnomorska               Magda Gessler            2021-10-05      2021-10-25  |
+|  Krzysztof Rogowski          91021828354     978-83-32412-09-3     Mogiła                                 Christian Oak            2021-10-01      2021-10-18  |
+|  Krzysztof Rogowski          91021828354     978-83-276412-1-1     Naznaczony                             Artur Bąk                2021-10-15      2021-10-25  |
+|  Jan Kowalski                76102783617     978-83-276412-9-1     Wartownicy                             Christian Goldman        2021-10-05      -           |
+|________________________________________________________________________________________________________________________________________________________________|
+
+                             KLIENCI                                
+____________________________________________________________________
+|     PESEL     |     Imię     |   Nazwisko   |  Ilość Wypożyczeń  |
+|***************|**************|**************|********************|
+|  76102783617     Jan            Kowalski              1          |
+|  91021828354     Krzysztof      Rogowski              3          |
+|  88052073814     Maria          Kamińska              1          |
+|__________________________________________________________________|
+
+                             WYDAWNICTWA                                
+_________________________________________________________________________
+|     ID     |     Nazwa     |         E-mail         |  Ilość Książek  |
+|************|***************|************************|*****************|
+|   32412       Arktus          arktus@interia.pl              8        |
+|   276412      Astralis        astra@gmail.com                5        |
+|   3821        Obram           obram@wp.pl                    7        |
+|_______________________________________________________________________|
+
+PODSUMOWANIE
+_________________________________________________________________________
+Ilość kryminałów                   : 5
+Ilość fantastyki                   : 5
+Ilość poradników                   : 5
+Ilość horrorów                     : 5
+Ilość książek na stanie            : 18
+Ilość książek obecnie wypożyczonych: 2
+Ilość książek                      : 20
+Wartość kryminałów                 : 65.44
+Wartość fantastyki                 : 42.44
+Wartość poradników                 : 79.98
+Wartość horrorów                   : 105.55
+Wartość książek                    : 293.41
+Średnia wartość kryminałów         : 32.72
+Średnia wartość fantastyki         : 21.22
+Średnia wartość poradników         : 39.99
+Średnia wartość horrorów           : 35.18
+Średnia wartość książek            : 32.6
+Najdroższa książka                 : 100 przepisów na każdą okazję
+Najtansza książka                  : Tatry- przewodnik górski
+_________________________________________________________________________
+
+AUTOR
+_________________________________________________________________________
+Imię    : Bartosz
+Nazwisko: Żak
+Indeks  : 236713
+_________________________________________________________________________
+Data wygenerowania raportu: 2022-02-05
