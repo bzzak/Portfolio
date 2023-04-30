@@ -1,0 +1,20 @@
+﻿  main.cpp
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie6\Gry2D_zadanie6\Gry2D_Zadanie_6\main.cpp(193,14): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie6\Gry2D_zadanie6\Gry2D_Zadanie_6\main.cpp(203,18): warning C4244: "=": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie6\Gry2D_zadanie6\Gry2D_Zadanie_6\main.cpp(204,26): warning C4244: "=": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie6\Gry2D_zadanie6\Gry2D_Zadanie_6\main.cpp(205,26): warning C4244: "=": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie6\Gry2D_zadanie6\Gry2D_Zadanie_6\main.cpp(206,62): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie6\Gry2D_zadanie6\Gry2D_Zadanie_6\main.cpp(206,50): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie6\Gry2D_zadanie6\Gry2D_Zadanie_6\main.cpp(206,38): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie6\Gry2D_zadanie6\Gry2D_Zadanie_6\main.cpp(282,21): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie6\Gry2D_zadanie6\Gry2D_Zadanie_6\main.cpp(284,32): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie6\Gry2D_zadanie6\Gry2D_Zadanie_6\main.cpp(285,21): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie6\Gry2D_zadanie6\Gry2D_Zadanie_6\main.cpp(291,43): warning C4838: konwersja z „float” do „int” wymaga konwersji zawężającej
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie6\Gry2D_zadanie6\Gry2D_Zadanie_6\main.cpp(291,43): warning C4244: "inicjowanie": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie6\Gry2D_zadanie6\Gry2D_Zadanie_6\main.cpp(291,74): warning C4838: konwersja z „float” do „int” wymaga konwersji zawężającej
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie6\Gry2D_zadanie6\Gry2D_Zadanie_6\main.cpp(291,74): warning C4244: "inicjowanie": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie6\Gry2D_zadanie6\Gry2D_Zadanie_6\main.cpp(291,93): warning C4838: konwersja z „float” do „int” wymaga konwersji zawężającej
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie6\Gry2D_zadanie6\Gry2D_Zadanie_6\main.cpp(291,93): warning C4244: "inicjowanie": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie6\Gry2D_zadanie6\Gry2D_Zadanie_6\main.cpp(291,112): warning C4838: konwersja z „float” do „int” wymaga konwersji zawężającej
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie6\Gry2D_zadanie6\Gry2D_Zadanie_6\main.cpp(291,112): warning C4244: "inicjowanie": konwersja z "float" do "int", możliwa utrata danych
+  Gry2D_Zadanie_6.vcxproj -> C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie6\Gry2D_zadanie6\Gry2D_Zadanie_6\x64\Debug\Gry2D_Zadanie_6.exe

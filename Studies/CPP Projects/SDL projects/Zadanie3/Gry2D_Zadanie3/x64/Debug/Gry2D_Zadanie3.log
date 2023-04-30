@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie3\Gry2D_Zadanie3\main.cpp(139,34): warning C4838: konwersja z „float” do „int” wymaga konwersji zawężającej
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie3\Gry2D_Zadanie3\main.cpp(139,34): warning C4244: "inicjowanie": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie3\Gry2D_Zadanie3\main.cpp(139,46): warning C4838: konwersja z „float” do „int” wymaga konwersji zawężającej
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie3\Gry2D_Zadanie3\main.cpp(139,46): warning C4244: "inicjowanie": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie3\Gry2D_Zadanie3\main.cpp(146,57): warning C4244: "+=": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie3\Gry2D_Zadanie3\main.cpp(152,57): warning C4244: "+=": konwersja z "double" do "float", możliwa utrata danych
+  Gry2D_Zadanie3.vcxproj -> C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie3\Gry2D_Zadanie3\x64\Debug\Gry2D_Zadanie3.exe

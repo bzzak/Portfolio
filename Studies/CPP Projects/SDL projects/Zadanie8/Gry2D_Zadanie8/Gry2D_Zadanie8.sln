@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33130.400
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Gry2D_Zadanie8", "Gry2D_Zadanie8.vcxproj", "{0D55C5A8-F933-4E54-8E08-8098D52B321A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D55C5A8-F933-4E54-8E08-8098D52B321A}.Debug|x64.ActiveCfg = Debug|x64
+		{0D55C5A8-F933-4E54-8E08-8098D52B321A}.Debug|x64.Build.0 = Debug|x64
+		{0D55C5A8-F933-4E54-8E08-8098D52B321A}.Debug|x86.ActiveCfg = Debug|Win32
+		{0D55C5A8-F933-4E54-8E08-8098D52B321A}.Debug|x86.Build.0 = Debug|Win32
+		{0D55C5A8-F933-4E54-8E08-8098D52B321A}.Release|x64.ActiveCfg = Release|x64
+		{0D55C5A8-F933-4E54-8E08-8098D52B321A}.Release|x64.Build.0 = Release|x64
+		{0D55C5A8-F933-4E54-8E08-8098D52B321A}.Release|x86.ActiveCfg = Release|Win32
+		{0D55C5A8-F933-4E54-8E08-8098D52B321A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33E32893-DBD1-4D49-9724-456E2D3FC193}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,26 @@
+﻿  main.cpp
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie9\Gry2D_Zadanie9\main.cpp(11,10): warning C4067: nieoczekiwane tokeny występujące po dyrektywie preprocesora - oczekiwano nowego wiersza
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie9\Gry2D_Zadanie9\main.cpp(12,10): warning C4067: nieoczekiwane tokeny występujące po dyrektywie preprocesora - oczekiwano nowego wiersza
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie9\Gry2D_Zadanie9\Engine.h(13,2): warning C4091: "static ": zignorowano na lewo od "Engine" podczas gdy brak deklaracji zmiennej
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie9\Gry2D_Zadanie9\main.cpp(41,137): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie9\Gry2D_Zadanie9\main.cpp(41,124): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie9\Gry2D_Zadanie9\main.cpp(41,109): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie9\Gry2D_Zadanie9\main.cpp(41,55): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie9\Gry2D_Zadanie9\main.cpp(44,20): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie9\Gry2D_Zadanie9\main.cpp(73,26): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie9\Gry2D_Zadanie9\main.cpp(74,28): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie9\Gry2D_Zadanie9\main.cpp(75,27): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie9\Gry2D_Zadanie9\main.cpp(163,39): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie9\Gry2D_Zadanie9\main.cpp(167,131): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie9\Gry2D_Zadanie9\main.cpp(167,106): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie9\Gry2D_Zadanie9\main.cpp(170,79): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie9\Gry2D_Zadanie9\main.cpp(416,59): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie9\Gry2D_Zadanie9\main.cpp(428,51): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie9\Gry2D_Zadanie9\main.cpp(562,28): warning C4305: "+=": obcięcie z "double" do "float"
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie9\Gry2D_Zadanie9\main.cpp(567,58): warning C4305: "-=": obcięcie z "double" do "float"
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie9\Gry2D_Zadanie9\main.cpp(572,61): warning C4305: "-=": obcięcie z "double" do "float"
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie9\Gry2D_Zadanie9\main.cpp(577,29): warning C4305: "+=": obcięcie z "double" do "float"
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie9\Gry2D_Zadanie9\main.cpp(582,57): warning C4305: "-=": obcięcie z "double" do "float"
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie9\Gry2D_Zadanie9\main.cpp(587,27): warning C4305: "+=": obcięcie z "double" do "float"
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie9\Gry2D_Zadanie9\main.cpp(599,22): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+  Gry2D_Zadanie9.vcxproj -> C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie9\Gry2D_Zadanie9\x64\Debug\Gry2D_Zadanie9.exe

@@ -1,0 +1,52 @@
+﻿  main.cpp
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie7\Gdy2D_zadanie7\main.cpp(12,10): warning C4067: nieoczekiwane tokeny występujące po dyrektywie preprocesora - oczekiwano nowego wiersza
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie7\Gdy2D_zadanie7\main.cpp(13,10): warning C4067: nieoczekiwane tokeny występujące po dyrektywie preprocesora - oczekiwano nowego wiersza
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie7\Gdy2D_zadanie7\CollisionEngine.h(15,2): warning C4091: "static ": zignorowano na lewo od "CollisionEngine" podczas gdy brak deklaracji zmiennej
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie7\Gdy2D_zadanie7\main.cpp(38,60): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie7\Gdy2D_zadanie7\main.cpp(39,57): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie7\Gdy2D_zadanie7\main.cpp(39,44): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie7\Gdy2D_zadanie7\main.cpp(42,20): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie7\Gdy2D_zadanie7\main.cpp(59,42): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie7\Gdy2D_zadanie7\main.cpp(98,14): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie7\Gdy2D_zadanie7\main.cpp(267,107): warning C4838: konwersja z „float” do „int” wymaga konwersji zawężającej
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie7\Gdy2D_zadanie7\main.cpp(267,107): warning C4244: "inicjowanie": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie7\Gdy2D_zadanie7\main.cpp(267,165): warning C4838: konwersja z „float” do „int” wymaga konwersji zawężającej
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie7\Gdy2D_zadanie7\main.cpp(267,165): warning C4244: "inicjowanie": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie7\Gdy2D_zadanie7\main.cpp(273,107): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie7\Gdy2D_zadanie7\main.cpp(273,73): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie7\Gdy2D_zadanie7\main.cpp(276,107): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie7\Gdy2D_zadanie7\main.cpp(276,73): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie7\Gdy2D_zadanie7\main.cpp(278,126): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie7\Gdy2D_zadanie7\main.cpp(535,59): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie7\Gdy2D_zadanie7\main.cpp(542,51): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(186,16): warning C4244: "inicjowanie": konwersja z "_Ty" do "_Ty1", możliwa utrata danych
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty1=float
+          ]
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie7\Gdy2D_zadanie7\main.cpp(140): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept” funkcji szablon
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie7\Gdy2D_zadanie7\main.cpp(140): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept” funkcji szablon
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(186,54): warning C4244: "inicjowanie": konwersja z "_Ty" do "_Ty2", możliwa utrata danych
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty2=float
+          ]
+  Gdy2D_zadanie7.vcxproj -> C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie7\Gdy2D_zadanie7\x64\Debug\Gdy2D_zadanie7.exe

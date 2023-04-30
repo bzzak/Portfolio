@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+<groups>
+
+<A>
+<netherlands text = "Holandia" id = "0" m = "3" w = "2" d = "1" l = "0"  gr = "4" p = "7" />
+<senegal text = "Senegal" id = "1" m = "3" w = "2" d = "0" l = "1"  gr = "1" p = "6"/>
+<equador text = "Ekwador" id = "2" m = "3" w = "1" d = "1" l = "1"  gr = "1" p = "4"/>
+<quatar text = "Katar" id = "3" m = "3" w = "0" d = "0" l = "3"  gr = "-6" p = "0"/>
+</A>
+
+<B>
+<england text = "Anglia" id = "4" m = "3" w = "2" d = "1" l = "0"  gr = "7" p = "7"/>
+<usa text = "USA" id = "5" m = "3" w = "1" d = "2" l = "0"  gr = "1" p = "5"/>
+<iran text = "Iran" id = "6" m = "3" w = "1" d = "0" l = "2"  gr = "-3" p = "3"/>
+<wales text = "Walia" id = "7" m = "3" w = "0" d = "1" l = "2"  gr = "-5" p = "1"/>
+</B>
+
+<C>
+<argentina text = "Argentyna" id = "8" m = "3" w = "2" d = "1" l = "0"  gr = "7" p = "7"/>
+<poland  text = "Polska" id = "9" m = "3" w = "2" d = "1" l = "0"  gr = "7" p = "7"/>
+<mexico  text = "Meksyk" id = "10" m = "3" w = "2" d = "1" l = "0"  gr = "7" p = "7"/>
+<saudi_arabia  text = "Arabia Saudyjska" id = "11" m = "3" w = "2" d = "1" l = "0"  gr = "7" p = "7"/>
+</C>
+
+<D>
+<france text = "Francja" id = "12" m = "3" w = "2" d = "1" l = "0"  gr = "7" p = "7"/>
+<australia text = "Australia" id = "13" m = "3" w = "2" d = "1" l = "0"  gr = "7" p = "7"/>
+<tunisia  text = "Tunezja" id = "14" m = "3" w = "2" d = "1" l = "0"  gr = "7" p = "7"/>
+<denmark  text = "Dania" id = "15" m = "3" w = "2" d = "1" l = "0"  gr = "7" p = "7"/>
+</D>
+
+<E>
+<japan  text = "Japonia" id = "16" m = "3" w = "2" d = "1" l = "0"  gr = "7" p = "7"/>
+<spain  text = "Hiszpania" id = "17" m = "3" w = "2" d = "1" l = "0"  gr = "7" p = "7"/>
+<germany text = "Niemcy" id = "18" m = "3" w = "2" d = "1" l = "0"  gr = "7" p = "7"/>
+<costa_rica text = "Kostaryka" id = "19" m = "3" w = "2" d = "1" l = "0"  gr = "7" p = "7"/>
+</E>
+
+<F>
+<maroco text = "Maroko" id = "20" m = "3" w = "2" d = "1" l = "0"  gr = "7" p = "7"/>
+<croatia  text = "Chorwacja" id = "21" m = "3" w = "2" d = "1" l = "0"  gr = "7" p = "7"/>
+<belgium  text = "Belgia" id = "22" m = "3" w = "2" d = "1" l = "0"  gr = "7" p = "7"/>
+<canada  text = "Kanada" id = "23" m = "3" w = "2" d = "1" l = "0"  gr = "7" p = "7"/>
+</F>
+
+<G>
+<brazil  text = "Brazylia" id = "24" m = "3" w = "2" d = "1" l = "0"  gr = "7" p = "7"/>
+<switzerland text = "Szwajcaria" id = "25" m = "3" w = "2" d = "1" l = "0"  gr = "7" p = "7"/>
+<camerun  text = "Kamerun" id = "26" m = "3" w = "2" d = "1" l = "0"  gr = "7" p = "7"/>
+<serbia  text = "Serbia" id = "27" m = "3" w = "2" d = "1" l = "0"  gr = "7" p = "7"/>
+</G>
+
+<H>
+<portugal  text = "Portugalia" id = "28" m = "3" w = "2" d = "1" l = "0"  gr = "7" p = "7"/>
+<south_corea text = "Korea Poludniowa" id = "29" m = "3" w = "2" d = "1" l = "0"  gr = "7" p = "7"/>
+<uruguay  text = "Urugwaj" id = "30" m = "3" w = "2" d = "1" l = "0"  gr = "7" p = "7"/>
+<ghana  text = "Ghana" id = "31" m = "3" w = "2" d = "1" l = "0"  gr = "7" p = "7"/>
+</H>
+
+</groups>
+
+<matches>
+<short id = "0" c1 = "0" c2 = "8" p= "Cwiercfinaly" t1= "Holandia" t2 = "Argentyna" r1 = "2" r2 = "2" r1a = "3" r1b = "4"/>
+<short id = "1" c1 = "21" c2 = "24" p= "Cwiercfinaly" t1= "Chorwacja" t2 = "Brazylia" r1 = "1" r2 = "1" r1a = "4" r1b = "2"/>
+<short id = "2" c1 = "4" c2 = "12" p= "Cwiercfinaly" t1= "Anglia" t2 = "Francja" r1 = "1" r2 = "2" r1a = "null" r1b = "null"/>
+<short id = "3" c1 = "20" c2 = "28" p= "Cwiercfinaly" t1= "Maroko" t2 = "Portugalia" r1 = "1" r2 = "0" r1a = "null" r1b = "null"/>
+<short id = "4" c1 = "8" c2 = "21" p= "Polfinaly" t1= "Argentyna" t2 = "Chorwacja" r1 = "3" r2 = "0" r1a = "null" r1b = "null"/>
+<short id = "5" c1 = "12" c2 = "20" p= "Polfinaly" t1= "Francja" t2 = "Maroko" r1 = "2" r2 = "0" r1a = "null" r1b = "null"/>
+<short id = "6" c1 = "8" c2 = "12" p= "Final" t1= "Argentyna" t2 = "Francja" r1 = "3" r2 = "3" r1a = "4" r1b = "2"/>
+<short id = "7" c1 = "21" c2 = "20" p= "Baraze-3 miejsce" t1= "Chorwacja" t2 = "Maroko" r1 = "2" r2 = "1" r1a = "null" r1b = "null"/>
+</matches>
+
+</database>

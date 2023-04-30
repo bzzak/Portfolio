@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33130.400
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie5MatGraf", "Zadanie5MatGraf.csproj", "{BABA5A51-B461-41AA-BB74-C18A4E9A7A82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BABA5A51-B461-41AA-BB74-C18A4E9A7A82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BABA5A51-B461-41AA-BB74-C18A4E9A7A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BABA5A51-B461-41AA-BB74-C18A4E9A7A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BABA5A51-B461-41AA-BB74-C18A4E9A7A82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6C97603-0681-421D-80E0-78BD5325D746}
+	EndGlobalSection
+EndGlobal

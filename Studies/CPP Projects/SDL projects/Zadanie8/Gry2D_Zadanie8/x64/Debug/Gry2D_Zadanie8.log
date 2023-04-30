@@ -1,0 +1,17 @@
+﻿  main.cpp
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie8\Gry2D_Zadanie8\main.cpp(12,10): warning C4067: nieoczekiwane tokeny występujące po dyrektywie preprocesora - oczekiwano nowego wiersza
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie8\Gry2D_Zadanie8\main.cpp(13,10): warning C4067: nieoczekiwane tokeny występujące po dyrektywie preprocesora - oczekiwano nowego wiersza
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie8\Gry2D_Zadanie8\Engine.h(14,2): warning C4091: "static ": zignorowano na lewo od "Engine" podczas gdy brak deklaracji zmiennej
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie8\Gry2D_Zadanie8\main.cpp(39,137): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie8\Gry2D_Zadanie8\main.cpp(39,124): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie8\Gry2D_Zadanie8\main.cpp(39,109): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie8\Gry2D_Zadanie8\main.cpp(39,55): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie8\Gry2D_Zadanie8\main.cpp(42,20): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie8\Gry2D_Zadanie8\main.cpp(129,39): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie8\Gry2D_Zadanie8\main.cpp(133,131): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie8\Gry2D_Zadanie8\main.cpp(133,106): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie8\Gry2D_Zadanie8\main.cpp(136,79): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie8\Gry2D_Zadanie8\main.cpp(325,59): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie8\Gry2D_Zadanie8\main.cpp(332,51): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie8\Gry2D_Zadanie8\main.cpp(450,22): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+  Gry2D_Zadanie8.vcxproj -> C:\Users\Admin\Desktop\Nauka\Informatyka 2020\V semestr\projekty\sdl\Zadanie8\Gry2D_Zadanie8\x64\Debug\Gry2D_Zadanie8.exe
